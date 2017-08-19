@@ -48,12 +48,6 @@ Once you're ready to publish your hard work so that the rest of us can take adva
 
 Anytime you need to update your module, just rebuild, change the version number and publish again.
 
-## Other stuff
-### To-do
-
-* Adding unit tests.
-* Explore using OpaqueTokens for referencing services.
-
 ### License
 
 MIT
