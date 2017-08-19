@@ -2,24 +2,6 @@
 ## What's this?
 This project intends to give an easy-to-use starter for developing and publishing an Angular NPM module, so that it then be installed through the regular `npm install` command by other users.
 
-The whole project is heavily inspired by [Cyrille Tuzi](https://github.com/cyrilletuzi), through his [How to build and publish an Angular module](https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464#.qcwybm3pa) Medium post.
-
-## Getting ready
-* `fork` this repo and change its name to match your module's
-* `clone` your fork
-* review the `package.json` file contents and include your name, your module's name and any other information you find necessary. Also, make sure the listed dependencies and their version numbers are what you need them to be
-
-> Don't pay attention to the `package-dist.json` file by now, we will get there later on.
-
-* `npm install` to install all dependencies or `yarn`
-
-## Coding time!
-You'll probably want to write some awesome code now.
-
-The seed includes a sample module file (`seed.module.ts`), as well as a sample service (`seed.service.ts`) and a sample public component (`seed.component.ts`), to get you inspired.
-
-So now it's the time to either rename those files and the classes inside them to your liking, or ditching them and writing your stuff from scratch.
-
 ## Now compile it!
 Once you have some nice amount of code put into your services, components, filters..., it's probably a good time to compile your module and taste the rewards for your hard work. These are the steps:
 * open the `tsconfig.json` file and include in the `paths` value **all the modules** your project depends on, as the final bundle won’t include them directly
