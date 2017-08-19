@@ -1,0 +1,1 @@
+# angular-npm-module-seed
