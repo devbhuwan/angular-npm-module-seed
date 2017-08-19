@@ -1,0 +1,32 @@
+ {
+	"name": "angular-npm-module-seed",
+	"version": "1.0.0",
+	"description": "Wot!",
+	"main": "bundles/npm-module-seed.umd.min.js",
+	"module": "index.js",
+	"typings": "index.d.ts",
+	"keywords": [
+		"angular",
+		"angular2",
+		"angular 2"
+	],
+	"author": {
+		"name": "",
+		"email": ""
+	},
+	"license": "",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"bugs": {
+		"url": ""
+	},
+	"peerDependencies": {
+		"@angular/common": "^4.3.5",
+		"@angular/core": "^4.3.5",
+		"rxjs": "^5.4.3",
+		"zone.js": "^0.8.16"
+	}
+}
